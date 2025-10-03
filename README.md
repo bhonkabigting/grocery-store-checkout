@@ -23,21 +23,21 @@ grocery-store-checkout/
 
 ├── src/
 
-│   ├── main/java/com/grocery/
+│├── main/java/com/grocery/
 
-│   │   ├── product/        # Product classes
+││├── product/        # Product classes
 
-│   │   ├── promotion/      # Promotions
+││├── promotion/      # Promotions
 
-│   │   ├── receipt/        # Receipt printer
+││├── receipt/        # Receipt printer
 
-│   │   ├── service/        # Checkout counter and cart
+││├── service/        # Checkout counter and cart
 
-│   │   └── Main.java       # Optional demo runner
+││└── Main.java       # Optional demo runner
 
-│   └── test/java/com/grocery/
+│└── test/java/com/grocery/
 
-│       └── CheckoutCounterTest.java
+│   &emsp;&emsp;└── CheckoutCounterTest.java
 
 
 ---
