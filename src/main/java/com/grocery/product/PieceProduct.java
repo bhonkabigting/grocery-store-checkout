@@ -13,9 +13,4 @@ public class PieceProduct extends Product {
     public double getUnitPrice() {
         return pricePerPiece;
     }
-
-    @Override
-    public String toString() {
-        return name + " (1 pc)";
-    }
 }

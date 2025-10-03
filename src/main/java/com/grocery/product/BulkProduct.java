@@ -13,9 +13,4 @@ package com.grocery.product;
         public double getUnitPrice() {
             return pricePerKg;
         }
-
-        @Override
-        public String toString() {
-            return name + " (per kg)";
-        }
     }
