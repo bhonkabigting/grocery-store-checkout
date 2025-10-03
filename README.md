@@ -17,6 +17,28 @@ The program calculates totals and prints a receipt for the customer.
 
 ## Project Structure
 
+grocery-store-checkout/
+
+├── pom.xml
+
+├── src/
+
+│   ├── main/java/com/grocery/
+
+│   │   ├── product/        # Product classes
+
+│   │   ├── promotion/      # Promotions
+
+│   │   ├── receipt/        # Receipt printer
+
+│   │   ├── service/        # Checkout counter and cart
+
+│   │   └── Main.java       # Optional demo runner
+
+│   └── test/java/com/grocery/
+
+│       └── CheckoutCounterTest.java
+
 
 ---
 ## How to Build and Run
