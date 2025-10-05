@@ -9,7 +9,7 @@ public class ReceiptPrinter {
     public void printReceipt(List<CartItem> items, double total) {
         System.out.println("===== RECEIPT =====");
         for (CartItem item : items) {
-            String qty = item.getProduct().toString().contains("per kg")
+            String qty = item.getProduct().getUnit().contains("kg")
                     ? String.format("%.2f kg", item.getQuantity())
                     : String.format("%.0f pc", item.getQuantity());
 
